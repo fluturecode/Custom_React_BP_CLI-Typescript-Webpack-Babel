@@ -1,0 +1,10 @@
+{
+	"presets": [
+		/*allows you to use the latest JavaScript without needing to micromanage which syntax transforms "https://babeljs.io/docs/en/babel-preset-env" */
+		"@babel/preset-env",
+		// Converts JSX to JavaScript
+		"@babel/preset-react",
+		// Compiles Typescript into JavaScript
+		"@babel/preset-typescript"
+	]
+}
