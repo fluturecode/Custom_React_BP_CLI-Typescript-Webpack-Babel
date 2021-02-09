@@ -7,7 +7,7 @@ module.exports = {
 		vendor: ["react", "react-dom"],
 	},
 	output: {
-		path: path.resolve(_dirname, "dist"),
+		path: path.resolve(__dirname, "dist"),
 		filename: "js/[name]/bundle.js",
 	},
 	devtool: "source-map",
