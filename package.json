@@ -7,6 +7,7 @@
 		"dev": "npx webpack serve --config build-tools/webpack.config.js --mode development",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"type": "module",
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
